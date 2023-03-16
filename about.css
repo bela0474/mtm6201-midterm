@@ -1,0 +1,71 @@
+/* Style the labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style the input fields */
+  input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  
+    /* set the background color to orange */
+    background-color: rgb(255, 228, 178);
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    background-color: #d5d5d5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style the submit button on hover */
+  input[type="submit"]:hover {
+    background-color: #d5d5d5;
+  }
+  
+h3 {
+    display: inline-block;
+    /* width: 100%; */
+    border-radius: 8px;
+    background-color: bisque;
+    margin: 0 auto;
+    border: 10px solid bisque;
+    font-weight: bolder;
+
+}
+
+.flaws {
+    margin: 20px;
+    text-align: center;
+}
+
+.baker img {
+    float: left;
+    /* width: 25%; */
+    padding: 0 20px 20px 0;
+    border-radius: 14px;
+}
+
+.services img {
+    float: left;
+    /* width: 25%; */
+    /* padding-right: 5px;
+    border-radius: 14px; */
+
+
+}
+
+.services p {
+    float: right;
+    
+}
