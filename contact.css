@@ -25,9 +25,15 @@ nav a {
     padding: 10px;
     border-radius: 5px;
     transition: background-color 0.3s ease-in-out;
+}
+
+.header-icons h1 {
+    font-size: 6rem;
+}
 
 
-
+i.fa.fa-volume-control-phone {
+    transform: rotate(60deg);
 }
 
 nav {
@@ -40,7 +46,6 @@ nav {
 
 nav a:hover {
     background-color: #555;
-    co
 }
 
 i {

@@ -28,6 +28,9 @@ header {
     align-items: center;
 }
 
+.header-icons  .fa-question-circle-o {
+    color: white;
+}
 
 .searchbar {
     position: absolute;
@@ -43,7 +46,6 @@ header {
 
 .navbar {
     height: 150px;
-    background-color: #F2FFFF;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -53,14 +55,33 @@ header {
     position: relative;
     height: 100px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .city img {
-    position: absolute;
+    /* position: absolute;
     left: 80px;
     top: 30px;
-    width: 2rem;
+    width: 2rem; */
     height: 3rem;
+    margin: 0 10px;
+}
+
+.city-select {
+  display: flex;
+  align-items: center;
+}
+
+.city-select h2 {
+  margin-bottom: 0px;
+}
+
+.city-btns {
+  display: flex;
 }
 
 .cart {
@@ -70,16 +91,18 @@ header {
     right: 400px;
     top: 30px;
 }
-.city img {
+
+/* .city img {
     position: absolute;
     right: 100px;
-}
+} */
 
 .city h2 {
-    position: absolute;
-    left: 150px;
-    top: 50px;
+    /* position: absolute; */
+    /* left: 150px;
+    top: 50px; */
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 nav a {
@@ -171,12 +194,13 @@ ul {
 
 h1 {
     margin: 0;
-    font-size: 5rem;
+    font-size: 3.5rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #242424;
     text-align: center;
     padding-left: 90px;
+    font-weight: bold
 }
 
 
@@ -197,6 +221,8 @@ nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 
@@ -227,10 +253,14 @@ main {
     margin: 0 auto;
 }
 
+.main-h2  {
+    font-size: 2rem;
+}
+
 h2 {
-    font-size: 24px;
+    font-size: 0.5rem;
     font-weight: bold;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     margin: 0 0 20px;
 }
 
@@ -370,11 +400,12 @@ i fa-sign-in {
     width: 30%;
     margin-left: 10px;
     /* background-color: #98C1D9; */
+    text-align: center;
 }
 
 .social img {
     height: 2rem;
-    width: 2rem;
+    /* width: 2rem; */
 }
 
 .social h2 {
@@ -385,6 +416,15 @@ i fa-sign-in {
     text-decoration: none;
 }
 
+.social-icons {
+  margin-bottom: 10px;
+}
+
+.social-icons i {
+  font-size: 32px;
+  margin-right: 6px;
+  color: grey;
+}
 
 
 .social input {
@@ -687,7 +727,8 @@ label {
     .sign-in-btn {
       display: none;
     }
-    .searchbar {
+    /* .searchbar {
       width:
-    }    
+    }     */
+  }
 
